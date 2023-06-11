@@ -1,0 +1,181 @@
+@media (min-width:1770px) {
+    .container {
+        max-width: 1300px;
+        padding: 0;
+        width: 95%;
+    }
+}
+
+@media (min-width:1500px) and (max-width:1769px) {
+    .container {
+        max-width: 1300px;
+        padding: 0;
+        width: 95%;
+
+    }
+}
+
+@media (min-width:1200px) and (max-width:1499px) {
+    .container {
+        max-width: 1110px;
+        padding: 0;
+        width: 95%;
+
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px)
+
+/* md*/
+    {}
+
+
+@media (min-width:991px) {
+    .pagewrap {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-menu,
+    .nav {
+        display: flex;
+        justify-content: end;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px)
+
+/* sm*/
+    {}
+
+
+@media (max-width:767px)
+
+/* xs*/
+    {}
+
+@media (min-width: 991px) {
+    #exampleModal1 .modal-dialog {
+        width: 900px;
+        margin: 30px auto;
+        margin-top: 100px;
+    }
+
+    #exampleModal1 .modal-body {
+        position: relative;
+        padding: 15px;
+        height: 60vh;
+    }
+}
+
+
+@media (max-width:767px)
+
+/* xs*/
+    {
+    .sum-item-giaiphap {
+        display: flex !important;
+        flex-direction: column;
+
+    }
+
+    .nav-menu .menu-item {
+        border-bottom: 1px solid #ebebeb;
+    }
+
+    .nav-menu>.menu-item.is-active>.menu-link {
+        color: #fff;
+    }
+
+    .sum-banner {
+        background-size: 60%, 35%, 35% !important;
+    }
+
+    .sum-item-nganhhang-tong {
+        grid-template-columns: auto auto !important;
+        grid-column-gap: 20px !important;
+    }
+
+    .menu_header {
+        padding: 0 !important;
+    }
+
+    .sum-banner {
+        /* height: 2800px; */
+        padding-top: 100px !important;
+    }
+
+    .item-tangloi-nhuan h3 {
+        font-size: 25px !important;
+    }
+
+    .item-tangloi-nhuan p span {
+        font-size: 20px !important;
+    }
+
+    .nganhhang h4 {
+        font-size: 20px !important;
+    }
+
+    .item-tienich ul {
+        grid-template-columns: auto !important;
+    }
+
+    .nganhhang {
+        padding: 85px 0 30px !important;
+    }
+
+    #exampleModal1 .modal-content {
+        background: white !important;
+    }
+
+    .video-trang h3 {
+        font-size: 15px !important;
+    }
+
+    .video-trang {
+        padding: 25px 0 50px !important;
+    }
+
+    .img-videotrang {
+        width: 100px !important;
+        height: 100px !important;
+        margin-bottom: 10px !important;
+    }
+    .slide-langnghe .item {
+        grid-template-columns: auto !important;
+    }
+
+    .img-bocongthuong img {
+        max-width: 90% !important;
+        max-height: 70% !important;
+        object-fit: contain;
+    }
+
+    .item-footer.item-footer{
+        padding-bottom: 20px;
+        border-bottom: 1px solid white;
+        margin-top: 15px;
+    }
+    .item-footer h3 {
+        height: auto !important;
+    }
+
+    footer hr{
+        display: none;
+    }
+
+    .cungdanhmuc {
+        grid-template-columns:auto !important;
+    }
+
+
+}
+
+@media (max-width:480px) {}
+
+
+.visible-480 {
+    display: none;
+}
